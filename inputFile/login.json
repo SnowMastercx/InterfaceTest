@@ -1,0 +1,24 @@
+[
+{
+	"phone":"13580475555",
+	"password":"123456",
+	"type":1,
+	"assertMethod":{
+		"ret":0
+	},
+	"mysqlMethod":{
+		"uid":"select uid from sys_account where phone = 13580475555"
+	}
+},
+{
+	"phone":"18819302732",
+	"password":"123456",
+	"type":2,
+	"assertMethod":{
+		"ret":1
+	},
+	"mysqlMethod":{
+		"uid":"select uid from sys_account where phone = 13580475555"
+	}
+}
+]
