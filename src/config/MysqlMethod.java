@@ -10,10 +10,10 @@ import org.apache.commons.collections.functors.WhileClosure;
 
 
 public class MysqlMethod {
-	public static final String url = "jdbc:mysql://demo.51xuanshi.com:3306/xswy_new";
+	public static final String url = "jdbc:mysql://";
 	public static final String driver = "com.mysql.jdbc.Driver";
-	public static final String name = "root";
-	public static final String password = "xilieduNew"; 
+	public static final String name = "";
+	public static final String password = ""; 
 	
 	public Connection conn = null;
 	public Statement st = null;
